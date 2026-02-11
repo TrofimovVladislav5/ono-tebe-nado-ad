@@ -3,34 +3,50 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 96px 50px;
+  font-size: 18px;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
   gap: 13px;
-  list-style: circle;
-  padding: 0;
-  margin: 0;
-}
-
-.header__link {
-  text-decoration: none;
 }
 
 .header__links-list-item {
-  
-}
-
-.header__link_active {
-  text-decoration: underline;
+  list-style: circle;
+  list-style-position: inside;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
 }
 
+.header__link {
+  text-decoration: underline;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__logo {
-  display: block;
-  width: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo-image {
+  object-fit: contain;
+  width: 129px;
+}
+
+.address {
+  max-width: 240px;
+  justify-self: end;
+  font-style: normal;
+}
+
+.address__tel,
+.address__email {
+  text-decoration: underline;
 }
