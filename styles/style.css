@@ -52,3 +52,85 @@
   border-bottom: 1px solid;
   text-decoration: none;
 }
+
+.cover {
+  position: relative;
+  padding: 165px 50px 50px;
+  background-image: url('../images/cover.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  position: relative;
+  margin-bottom: 106px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.aligned-text_center {
+  padding-left: 30px;
+  text-align: center;
+}
+
+.aligned-text_right {
+  padding-left: 30px;
+  text-align: end;
+}
+
+.letter-spacing-extended {
+  line-height: 1.15;
+  letter-spacing: 0.3em;
+}
+
+.no-letter-spacing {
+  letter-spacing: initial;
+}
+
+.cover__description {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 109px;
+}
+
+.cover__description-text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  color: #fff;
+  font-weight: medium;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.lots {
+  margin: 0 24px;
+}
+
+.lots__heading {
+  margin-left: 40px;
+}
